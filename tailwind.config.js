@@ -12,7 +12,15 @@ module.exports = {
     },
   },
   daisyui: {
-    themes: ["corporate"],
+    themes: [
+      "corporate",
+      {
+        black: {
+          ...require("daisyui/src/theming/themes")["black"],
+          "base-100": "#0A0A0A",
+        },
+      },
+    ],
   },
   plugins: [require("daisyui")],
 };

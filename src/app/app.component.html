@@ -1,43 +1,14 @@
 <main>
   <div class="navbar p-10">
     <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h8m-8 6h16"
-            />
-          </svg>
-        </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-        >
-          <li><a>Home</a></li>
-          <li><a>Blog</a></li>
-          <li><a>About</a></li>
-          <li><a>Projects</a></li>
-        </ul>
-      </div>
-      <p class="flex relative pb-2 -mb-2 group text-xl font-bold text-gray-600">
-        Harshith Ashok<span
-          class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
-        ></span>
+      <p class="flex relative pb-2 -mb-2 group text-xl font-jet text-white-600">
+        Harshith Ashok
       </p>
     </div>
     <div class="navbar-end hidden lg:flex">
       <ul class="flex gap-10 justify-between cursor-pointer">
         <li>
-          <a class="font-normal flex relative pb-2 -mb-2 group" href="/"
+          <a class="font-jet flex relative pb-2 -mb-2 group" href="/"
             >Home<span
               class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
             ></span
@@ -45,26 +16,26 @@
         </li>
 
         <li>
-          <a class="font-normal flex relative pb-2 -mb-2 group" href="/blog"
+          <a class="font-jet flex relative pb-2 -mb-2 group" href="/blog"
             >Blog<span
               class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
             ></span
           ></a>
         </li>
         <li>
-          <a class="font-normal flex relative pb-2 -mb-2 group" href="/about"
+          <a class="font-jet flex relative pb-2 -mb-2 group" href="/about"
             >About<span
               class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
             ></span
           ></a>
         </li>
         <li>
-          <a class="font-normal flex relative pb-2 -mb-2 group" href="/projects"
+          <a class="font-jet flex relative pb-2 -mb-2 group" href="/projects"
             >Projects
             <pre
               class="absolute text-sm text-black/30 font-semibold -right-5 -top-2"
             >
-14</pre
+3</pre
             >
             <span
               class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
@@ -73,6 +44,45 @@
         </li>
       </ul>
     </div>
+  </div>
+  <div class="block lg:hidden justify-center px-10 lg:px-20">
+    <ul class="grid lg:flex gap-2 lg:gap-10 justify-between cursor-pointer">
+      <li>
+        <a class="font-jet flex relative pb-2 -mb-2 group" href="/"
+          >Home<span
+            class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
+          ></span
+        ></a>
+      </li>
+
+      <li>
+        <a class="font-jet flex relative pb-2 -mb-2 group" href="/blog"
+          >Blog<span
+            class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
+          ></span
+        ></a>
+      </li>
+      <li>
+        <a class="font-jet flex relative pb-2 -mb-2 group" href="/about"
+          >About<span
+            class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
+          ></span
+        ></a>
+      </li>
+      <li>
+        <a class="font-jet flex relative pb-2 -mb-2 group" href="/projects"
+          >Projects
+          <pre
+            class="absolute text-sm text-black/30 font-semibold -right-5 -top-2"
+          >
+3</pre
+          >
+          <span
+            class="absolute bottom-0 left-0 opacity-0 w-[0px] transition-all duration-300 group-hover:opacity-100 group-hover:w-full h-[2px] bg-black"
+          ></span
+        ></a>
+      </li>
+    </ul>
   </div>
   <div class="p-10">
     <router-outlet></router-outlet>
